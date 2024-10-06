@@ -1,0 +1,12 @@
+/* ie10-viewport-bug-workaround.css */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* Adjust viewport settings for IE10 on Windows 8 */
+  html {
+    overflow-y: scroll; /* Forces scrollbars to appear */
+  }
+  body {
+    position: relative;
+    min-height: 100vh; /* Ensures full height */
+    overflow: hidden; /* Prevents scrolling issues */
+  }
+}

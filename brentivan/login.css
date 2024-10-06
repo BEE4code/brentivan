@@ -1,0 +1,237 @@
+
+  .bg-image{
+    background-image: url(theater-curtains.png); 
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  #login-panel{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+  }
+
+  #login{
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+  }
+
+  #Signup-panel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#Signup{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#btnSignup{
+    margin: 23px;
+    padding: 9px;
+    width: 37%;
+    text-align: center;
+    font-size: 13.5pt;
+}
+
+
+
+
+#btnLogin {
+  margin: 25px;
+  padding: 9px;
+  width: 37%;
+  text-align: center;
+  font-size: 13.5pt;
+}
+ 
+.panel-primary {
+  background: rgb(248, 248, 248);
+  border-color: ##800000;
+  border-radius: 12px;
+  border: 4px solid #811222;
+  color: #ffffff;
+}
+
+.panel-primary>.panel-heading {
+  /*background: rgba(100,100,900,.75);;*/
+  /* fallback for old browsers */
+  background: #811222;
+  font-family: lucida sans;
+  font-size: 19px;
+  color: #ffffff;
+  border-color: #811222;
+  border: 4px solid #811222;
+  text-align: center;
+}
+
+.panel-heading {
+  padding: 2px 2px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.panel-heading1 {
+  border-color: #811222;
+  background: #811222;
+  border-color: #811222;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active,
+.btnSignUp {
+  /*background: rgba(100,100,900,.75);*/
+  font-size: 12pt;
+  font-family: lucida sans;
+  background: #811222;
+  border-color: #811222;
+  color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  background-color: #800000;
+  color: white;
+  border-color: #800000;
+}
+
+.btn.btnSignUp:hover {
+  background-color: #800000;
+  color: white;
+  border-color: #800000;
+}
+
+.btn.btn-primary1 {
+  font-size: 10.5pt;
+  color: #ffffff;
+  background-color: #811222;
+  font-family: lucida sans;
+  border-color: #811222;
+}
+
+.btn.btn-default1 {
+  font-size: 10.5pt;
+  color: #ffffff;
+  background-color: #811222;
+  font-family: lucida sans;
+  border-color: #811222;
+}
+
+.btn.btn-primary1:hover {
+  font-size: 10pt;
+  color: #811222;
+  background-color: #ffffff;
+  font-family: lucida sans;
+  border-color: #811222;
+  font-weight: bold;
+}
+
+.btn.btn-default1:hover {
+  font-size: 10pt;
+  color: #811222;
+  background-color: #ffffff;
+  font-family: lucida sans;
+  border-color: #811222;
+  font-weight: bold;
+}
+
+body {
+  background-color: #cccccc;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+a {
+  font-family: lucida sans;
+  font-style: normal;
+  font-size: 10.5pt;
+  color: #811222;
+}
+
+a:hover {
+  font-family: lucida sans;
+  font-style: normal;
+  font-size: 10.5pt;
+  color: #811222;
+}
+
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  background-color: #811222;
+  border: 1px solid #811222;
+  border-radius: 4px;
+}
+
+.input-group {
+  padding: 5px;
+  font-size: 0.9em;
+  border-radius: 5px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #23211F;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  .btn.btn-primary1,
+  .btn.btn-default1 {
+    background-color: transparent;
+    border-color: transparent;
+    color: #670000;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .btn.btn-primary1,
+  .btn.btn-default1 {
+    background-color: transparent;
+    border-color: transparent;
+    color: #670000;
+    font-weight: bold;
+  }
+}
+
+.askadmin {
+  color: black;
+}
